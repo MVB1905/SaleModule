@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Trang User</title>
+</head>
+<body>
+    <h1>This is template page</h1>
+    <p>Hello everyone, My name is: <b>{{ name }}</b>!</p>
+    <h2>My assets include: </h2>
+    <ul>
+        {% for item in asset %}
+            <li>{{ item }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
